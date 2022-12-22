@@ -1,0 +1,34 @@
+{
+  "didIssuer": "did:alastria:quorum:redt:QmeeasCZ9jLbXueBJ7d7csxhb",
+  "didSubject": "did:alastria:quorum:redt:QmeeasCZ9jLbXueBJ7d7csxhb",
+  "credentials": [
+    {
+      "header": {
+        "typ": "JWT",
+        "alg": "ES256K",
+        "kid": "did:ala:quor:redt:QmeeasCZ9jLbXueBJ7d7csxhb#keys-1",
+        "jwk": "0x2e507af01167c98a6accc0cd46ab2a256dd6b6c69ec1c0c28f80fb62e1f7d70233768b0c58dbbdac1fc358b8141c075a520483cf9779e4ea98d13df2833f3767"
+      },
+      "payload": {
+        "jti": "https://www.empresa.com/alastria/credentials/3732",
+        "iss": "did:ala:quor:redT:0a165dee9e34ad3806c6ea4c8a9092a7779217a6",
+        "aud": "did:ala:quor:redT:a459f27768eeb3bb636f53e112ec0791391aac65",
+        "iat": 1588160378,
+        "exp": 1563783392,
+        "nbf": 1563782792,
+        "vp": {
+          "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://alastria.github.io/identity/credentials/v1"
+          ],
+          "type": ["VerifiablePresentation", "AlastriaVerifiablePresentation"],
+          "procHash": "H398sjHd...kldjUYn475n",
+          "procUrl": "https://www.empresa.com/alastria/businessprocess/4583",
+          "verifiableCredential": [
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NksiLCJraWQiOiJkaWQ6YWxhOnF1b3I6cmVkdDoxMmVlYUNDQTllRWJCNzhlQjk3ZDdjYWM2YiNrZXlzLTEifQ.eyJqdGkiOiJodHRwczovL3d3dy5lbXByZXNhLmNvbS9hbGFzdHJpYS9jcmVkZW50aWFscy8zNzM0IiwiaXNzIjoiZGlkOmFsYTpxdW9yOnJlZFQ6MGExNjVkZWU5ZTM0YWQzODA2YzZlYTRjOGE5MDkyYTc3NzkyMTdhNiIsInN1YiI6ImRpZDphbGE6cXVvcjpyZWRUOjZmMzAwYTcyNTAyZGQ3ZTMxODA0ZGM4MGM1NTZmZDBiNDkxYzVkNzEiLCJpYXQiOjE2NzEyNzk2ODUsImV4cCI6MTU2Mzc4MzM5MiwibmJmIjoxNTYzNzgyNzkyLCJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vYWxhc3RyaWEuZ2l0aHViLmlvL2lkZW50aXR5L2NyZWRlbnRpYWxzL3YxIiwiaHR0cHM6Ly93M2lkLm9yZy9kaWQvdjEiLCJKV1QiXSwidHlwZSI6WyJWZXJpZmlhYmxlQ3JlZGVudGlhbCIsIkFsYXN0cmlhVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsiQ3VlbnRhIEJhbmNhcmlhIjoiRVMwMDAiLCJsZXZlbE9mQXNzdXJhbmNlIjoiYmFzaWMifX19.gJig08Y2e_B7r-eTkymeLf7o_89rFjkzh1ICJP6GHOeFDMWKsicTw9Fo7wXsxWfQNxWzraOtdYaZ1bo-HTUwjg"
+          ]
+        }
+      }
+    }
+  ]
+}
